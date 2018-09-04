@@ -1,4 +1,4 @@
-from __future__ import division
+﻿from __future__ import division
 import warnings
 warnings.filterwarnings('ignore')
 import pandas as pd
@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cross_validation import KFold
 from sklearn.model_selection import train_test_split, cross_val_score
 import matplotlib.pyplot as plt
-
+# new new day
 churn_df = pd.read_csv('churn.csv')
 col_names = churn_df.columns.tolist()
 
